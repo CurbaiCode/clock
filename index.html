@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<title>Clock</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=cover">
+	<!-- <link rel="apple-touch-icon" href="apple-touch-icon.png">
+	<link rel="icon" href="favicon.ico"> -->
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+	<!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/CurbaiCode/gust-symbols@2.3.1/stylesheets/gustsymbols.min.css"> -->
+	<!-- <link href="https://fonts.googleapis.com/css2?family=Kufam:wght@400..900&display=swap" rel="stylesheet"> --><!-- Up: 4 -->
+	<!-- <link href="https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap" rel="stylesheet"> --><!-- 6 + 9 -->
+	<!-- <link href="https://fonts.googleapis.com/css2?family=Denk+One&display=swap" rel="stylesheet"> --><!-- Taper -->
+	<!-- <link href="https://fonts.googleapis.com/css2?family=Poiret+One&display=swap" rel="stylesheet"> --><!-- Up: Thin + Roman -->
+	<!-- <link href="https://fonts.googleapis.com/css2?family=Days+One&display=swap" rel="stylesheet"> --><!-- Bold + Soft -->
+	<link href="https://fonts.googleapis.com/css2?family=Anek+Latin:wdth,wght@75..125,100..800&display=swap" rel="stylesheet"><!-- Var + Roman -->
+	<link rel="stylesheet" href="main.css">
+</head>
+<body data-theme="light">
+	<main>
+		<div id="reset"><span id="reset-btn"></span></div>
+		<div id="face">
+			<ul id="graduations"></ul>
+			<ol class="up">
+				<li><span>1</span></li>
+				<li><span>2</span></li>
+				<li><span>3</span></li>
+				<li><span>4</span></li>
+				<li><span>5</span></li>
+				<li><span>6</span></li>
+				<li><span>7</span></li>
+				<li><span>8</span></li>
+				<li><span>9</span></li>
+				<li><span>10</span></li>
+				<li><span>11</span></li>
+				<li><span>12</span></li>
+			</ol>
+			<ol id="roman">
+				<li><span>I</span></li>
+				<li><span>II</span></li>
+				<li><span>III</span></li>
+				<li><span>IIII</span></li>
+				<li><span>V</span></li>
+				<li><span>VI</span></li>
+				<li><span>VII</span></li>
+				<li><span>VIII</span></li>
+				<li><span>IX</span></li>
+				<li><span>X</span></li>
+				<li><span>XI</span></li>
+				<li><span>XII</span></li>
+			</ol>
+			<div id="base" class="axle"></div>
+			<div id="hour" class="hand"><span></span></div>
+			<div id="minute" class="hand"><span></span></div>
+			<div id="mid" class="axle"></div>
+			<div id="second" class="hand"><span></span></div>
+			<div id="top" class="axle"></div>
+			<div id="cap" class="axle"></div>
+		</div>
+	</main>
+	<script src="main.js"></script>
+</body>
+</html>
